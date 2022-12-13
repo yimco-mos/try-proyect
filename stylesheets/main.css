@@ -1,0 +1,286 @@
+/* 
+color titulo   #3c3950
+
+color text #5f727f
+color borde 
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; 
+
+
+
+*/
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+    color: #5f727f;
+}
+h1{
+    text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6{
+margin:0;
+padding:0;
+font-family: 'Montserrat', sans-serif; ;
+color: #3c3950;
+
+
+}
+
+img{
+    max-width: 100%;
+    vertical-align:top;
+    
+
+}
+
+
+p{
+    margin:00;
+    padding:0;
+}
+
+a{
+    text-decoration: none;}
+a:hover{
+color:#5f727f ;
+
+}
+
+/* ---------------------header--------------------------- */
+
+header h1{
+font-size:30px;
+padding:20px;
+}
+
+.main-menu{
+list-style:none;
+padding:0;
+margin:0;
+display:flex;
+flex-wrap: wrap;
+}
+.main-menu a{
+color: #3c3950 ;
+padding:3px 15px;
+}
+
+
+.login{
+   
+text-align: center;
+width: 200px;
+position: relative;}
+
+.main-menu a{
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.main-menu a:hover{
+    color: #b48249;
+    border-bottom: 1px solid #3c3950;
+
+}
+
+
+.login::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 76px;
+    width: 1px;
+    background:#777;
+    left: 14px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+
+.main-banner{
+background-size: cover;
+background-image: url(../img/Canada_Parks_Mountains_480490.jpg);
+height: 500px;
+background-repeat: no-repeat;
+background-position:center;
+}
+
+.gallery{
+
+    padding:81px 0;
+}
+
+
+.titulo-seccion{
+font-size: 25px;
+font-weight: 600;
+text-transform: uppercase;
+position: relative;
+padding-bottom: 12px;
+margin-bottom: 50px;
+text-align: center;
+
+}
+
+.titulo-seccion:after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 48px;
+    background:#b48249;
+    left: 50%;
+    bottom:0;
+    transform:translateY(-50%);
+   
+}
+
+
+
+.gallery aside{
+margin-bottom:30px;
+}
+
+
+.gallery aside .widget{
+border: 1px solid #5f727f;
+margin-bottom: 30px;
+}
+
+
+
+.gallery aside .widgettitle{
+text-transform: uppercase;
+font-size: 16px;
+padding: 12px 20px;
+text-align: center;
+border-bottom: 1px solid #5f7279;
+}
+
+
+.gallery .container{
+    padding: 20px;
+}
+
+.widget-about{
+text-align: center;
+}
+
+.widget-about img{
+
+width: 40px;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+aside button {
+    list-style: none;
+text-align: center; 
+width: 100%;}
+.widget-categoria ul{
+display: block;
+padding: 0;
+margin: 0;
+
+}
+.widget-categoria  a{
+    display: block;
+}
+
+.widget-categoria a{
+text-align: center;
+padding: 10px 0;
+display: block;
+}
+
+.gallery-item{
+   
+text-align: center;
+margin-bottom: 30px;
+cursor:pointer;
+box-shadow: 0 8px 5px #4b5256a3;
+transition: all 0.5s ease;
+position: relative;
+}
+
+.gallery-item img{
+
+width:  100%;
+height: 378px;
+object-fit: cover;
+object-fit:center ;
+
+}
+.gallery-item:hover{
+transform: translateY(-10px);
+background: white;
+}
+.gallery-item.info{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position:absolute ;
+    left: 0;
+    bottom:35px;
+    background: rgba(124, 122, 122, 0.779);
+
+}
+.gallery-item.info:hover{
+background: white;
+
+}
+
+footer{
+border-top:3px solid #c3c3c3;
+padding: 30px 0;
+text-align: center;
+
+}
+
+
+
+.gallery-item h4{
+    
+    font-size: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+}
+
+.gallery-item  h4::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 48px;
+    background:#5061f2;
+    left: 50%;
+    bottom:0;
+    transform:translateX(-50%);
+   
+}
+
+
+.gallery-item p{
+opacity: 0.7;
+font-size: 14px;
+}
+.form-gupo input{
+    margin: 5px;
+    width: 100%;
+    border-radius: 3px;
+    border:1px solid  #3c3950;
+    font-size:16px;
+    padding:10px;
+}
+    
+.form-gupo .otro{
+margin-bottom: 3px;
+
+}
+
